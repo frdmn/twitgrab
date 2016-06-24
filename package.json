@@ -9,8 +9,8 @@
   "author": "Jonas Friedmann <j@frd.mn>",
   "license": "MIT",
   "dependencies": {
+    "commander": "^2.9.0",
     "download-file": "^0.1.5",
-    "optimist": "^0.6.1",
     "twitter-screen-scrape": "github:frdmn/twitter-screen-scrape"
   },
   "bin": {
