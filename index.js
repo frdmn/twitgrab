@@ -22,7 +22,13 @@ var imageArray = [];
 
 // Make sure to require 'username'
 if (!cmdr.username) {
-  console.log("No Twitter handle given. Use -u [username] or --username [username].")
+  console.log("Error: No Twitter handle given. Use -u [username] or --username [username].")
+  process.exit();
+}
+
+// Make sure to require 'username'
+if (!cmdr.movies && !cmdr.images) {
+  console.log("Error: Both --no-images and --no-movies given. Abborting because nothing to do...")
   process.exit();
 }
 
