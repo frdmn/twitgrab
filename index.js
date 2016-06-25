@@ -38,7 +38,7 @@ var streamOfTweets = new TwitterPosts({
   retweets: false
 });
 
-console.log('Trying to search media for \'' + cmdr.username +'\'...')
+console.log('Search for media in \'@' + cmdr.username +'\' tweets...')
 
 streamOfTweets.on('readable', function() {
   var time, tweet;
