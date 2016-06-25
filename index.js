@@ -23,13 +23,13 @@ var imageArray = [];
 // Make sure to require 'username'
 if (!cmdr.username) {
   console.log("Error: No Twitter handle given. Use -u [username] or --username [username].")
-  process.exit();
+  process.exit(1);
 }
 
 // Make sure to require 'username'
 if (!cmdr.movies && !cmdr.images) {
   console.log("Error: Both --no-images and --no-movies given. Abborting because nothing to do...")
-  process.exit();
+  process.exit(1);
 }
 
 // Create scraper instance
