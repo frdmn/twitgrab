@@ -82,7 +82,7 @@ streamOfTweets.on('readable', function() {
         download(imgUrl, {
           filename: destPath
         }, function(err){
-          if (err && err != 404) console.log(err)
+          if (err) console.log(err)
           // console.log('Downloaded "' + imgUrl + '" from https://twitter.com/' + cmdr.username + '/status/' + tweet.id + '!');
         })
       }
