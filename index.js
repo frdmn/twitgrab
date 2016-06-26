@@ -7,7 +7,9 @@ var cmdr = require('commander'),
     path = require("path"),
     fs = require('fs'),
     download = require('download-file'),
-    TwitterPosts = require('twitter-screen-scrape');
+    TwitterPosts = require('twitter-screen-scrape');  // make sure to use my fork
+                                                      // which supports scraping of movies
+                                                      // https://github.com/frdmn/twitter-screen-scrape
 
 // Make sure to properly pars argv
 cmdr
