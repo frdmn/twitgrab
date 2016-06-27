@@ -19,9 +19,6 @@ cmdr
   .option('--no-movies', 'Skip movies')
   .parse(process.argv);
 
-// Init variables and objects
-var imageArray = [];
-
 // Make sure to require 'username'
 if (!cmdr.username) {
   console.log("Error: No Twitter handle given. Use -u [username] or --username [username].")
