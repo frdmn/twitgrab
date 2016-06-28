@@ -1,5 +1,5 @@
 {
-  "name": "twitter-media-grabber",
+  "name": "twitgrab",
   "version": "1.0.0",
   "description": "Download all uploaded media by a Twitter user",
   "main": "index.js",
@@ -15,5 +15,20 @@
   },
   "bin": {
     "twitgrab": "./index.js"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frdmn/twitgrab.git"
+  },
+  "keywords": [
+    "twitter",
+    "download",
+    "scraper",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/frdmn/twitgrab/issues"
+  },
+  "homepage": "https://github.com/frdmn/twitgrab#readme"
 }
