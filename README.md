@@ -38,7 +38,7 @@ Here's a short explanation how to use `twitgrab`:
 
 ## Version
 
-0.0.1
+1.0.0
 
 ## License
 
