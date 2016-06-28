@@ -1,0 +1,19 @@
+{
+  "name": "twitter-media-grabber",
+  "version": "1.0.0",
+  "description": "Download all uploaded media by a Twitter user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas Friedmann <j@frd.mn>",
+  "license": "MIT",
+  "dependencies": {
+    "download-file": "^0.1.5",
+    "optimist": "^0.6.1",
+    "twitter-screen-scrape": "github:frdmn/twitter-screen-scrape"
+  },
+  "bin": {
+    "twitgrab": "./index.js"
+  }
+}
