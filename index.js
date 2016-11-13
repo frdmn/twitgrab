@@ -8,7 +8,7 @@ var cmdr = require('commander'),
     fs = require('fs'),
     download = require('download-file'),
     pjson = require('./package.json'),
-    TwitterPosts = require('twitter-screen-scrape');  // make sure to use my fork
+    TwitterPosts = require('twitter-screen-scrape-fork');  // make sure to use my fork
                                                       // which supports scraping of movies
                                                       // https://github.com/frdmn/twitter-screen-scrape
 
