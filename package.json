@@ -1,6 +1,6 @@
 {
   "name": "twitgrab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download all uploaded media by a Twitter user",
   "main": "index.js",
   "scripts": {
